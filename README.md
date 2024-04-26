@@ -1,10 +1,11 @@
 
 My primary interest is in bare-metal programming for the Olimex AgonLight2. To do this efficiently, I needed to have an edit-assemble-download-run toolchain for PCs running Microsoft Windows that is very fast and needs few keystrokes to operate. I now have what I believe is exactly that.
-The toolchain consists of three (free to download and use) programs:
-	Notepad++
-	Zilog Developer Studio II
-	Tera Term
-along with my eZapple machine language monitor.
+The toolchain consists of four (free to download and use) programs:
+
+    Notepad++
+    Zilog Developer Studio II
+    Tera Term
+    eZapple
 
 In addition, you need to connect your PC to the AgonLight using a USB to TTL Serial 3.3V UART Converter Cable. These are readily available from Amazon for about $15.  I use a DSD TECH SH-U09G USB to TTL Serial Cable, which works well. Make sure the cable uses 3.3V TTL, NOT 5V TTL, contains a genuine FTDI chip, and has little 2.45mm pin headers on each wire.
 You only need to hook up 3 wires to the pins of the Agon's GPIO header. The connections are:
